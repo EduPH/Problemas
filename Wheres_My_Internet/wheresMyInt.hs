@@ -8,11 +8,12 @@ solucion = escribeSalida . leeEntrada
 
 leeEntrada :: String -> [(Int,Int)]
 leeEntrada xss = 
-    (pares (map read (head ls))):[ pares (sort (map read xs)) | xs <- tail ls]
+    (pares (map read (head ls))):(concat [[pares (map read xs),pares' (map read xs)] | xs <- tail ls])
     where
       listas = map words . lines
       ls = listas xss
       pares xs = (head xs,last xs)
+      pares' xs= (last xs, head xs)
                
 escribeSalida :: [(Int,Int)] -> String
 escribeSalida xs | xs' == []  = "Connected" ++ "\n"
@@ -24,10 +25,7 @@ escribeSalida xs | xs' == []  = "Connected" ++ "\n"
                    aux (x:xs) = show x ++ "\n" ++ aux xs
 
 creaGrafo :: [(Vertex, Vertex)] -> Graph
-creaGrafo ((n,m):xs) = buildG (1,n) (aux xs)
-    where
-      aux [] = []
-      aux ((a,b):xs) = (a,b):(b,a):(aux xs)
+creaGrafo ((n,m):xs) = buildG (1,n) xs
 
 conInternet :: Graph -> Vertex -> Bool
 conInternet g x = path g x 1 || path g 1 x
