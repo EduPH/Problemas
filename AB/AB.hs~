@@ -1,0 +1,12 @@
+import Data.List
+main :: IO ()
+main = interact solucion
+
+solucion :: String -> String
+solucion = escribeSalida . leeEntrada
+leeEntrada :: String -> [Int]
+leeEntrada xs = map read ((map words (lines xs)) !! 1)
+escribeSalida :: [Int] -> String
+escribeSalida xs = show (abProb xs) ++ "\n"
+
+abProb xs = length [(a,b,a+b)| a<- xs, b <-(delete a xs),elem (a+b) xs]

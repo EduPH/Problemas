@@ -1,5 +1,4 @@
 import Data.Graph
-import Data.List
 main :: IO ()
 main = interact solucion
 
@@ -28,7 +27,7 @@ creaGrafo :: [(Vertex, Vertex)] -> Graph
 creaGrafo ((n,m):xs) = buildG (1,n) xs
 
 conInternet :: Graph -> Vertex -> Bool
-conInternet g x = path g x 1 || path g 1 x
+conInternet g x = path g 1 x
 
 sinInternet :: Graph -> [Vertex]
 sinInternet g = [ x | x <- vertices g, not (conInternet g x)]
