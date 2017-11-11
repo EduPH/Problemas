@@ -1,0 +1,31 @@
+cabal: Entering directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-9442/transformers-compat-0.5.1.4'
+Configuring transformers-compat-0.5.1.4...
+Building transformers-compat-0.5.1.4...
+Preprocessing library transformers-compat-0.5.1.4...
+[1 of 2] Compiling Paths_transformers_compat ( dist/dist-sandbox-1a679f20/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-1a679f20/build/Paths_transformers_compat.o )
+[2 of 2] Compiling Control.Monad.Trans.Instances ( src/Control/Monad/Trans/Instances.hs, dist/dist-sandbox-1a679f20/build/Control/Monad/Trans/Instances.o )
+[1 of 2] Compiling Paths_transformers_compat ( dist/dist-sandbox-1a679f20/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-1a679f20/build/Paths_transformers_compat.p_o )
+[2 of 2] Compiling Control.Monad.Trans.Instances ( src/Control/Monad/Trans/Instances.hs, dist/dist-sandbox-1a679f20/build/Control/Monad/Trans/Instances.p_o )
+Running Haddock for transformers-compat-0.5.1.4...
+Preprocessing library transformers-compat-0.5.1.4...
+Haddock coverage:
+   0% (  0 /  9) in 'Paths_transformers_compat'
+  Missing documentation for:
+    Module header
+    version (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:163)
+    getBinDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+    getLibDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+    getDynLibDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+    getDataDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+    getLibexecDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+    getDataFileName (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:182)
+    getSysconfDir (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10235_0/ghc_3.hscpp:174)
+ 100% (  1 /  1) in 'Control.Monad.Trans.Instances'
+Documentation created:
+dist/dist-sandbox-1a679f20/doc/html/transformers-compat/index.html
+Creating package registration file:
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/pkgConf-transformers-compat-0.5.12128236579784558821.4
+Installing library in
+/Users/eph/Documents/GitHub/FizzBuzz/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/transformers-compat-0.5.1.4-84sV5mkFftgD9qwogvuEDr
+Registering transformers-compat-0.5.1.4...
+cabal: Leaving directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-9442/transformers-compat-0.5.1.4'

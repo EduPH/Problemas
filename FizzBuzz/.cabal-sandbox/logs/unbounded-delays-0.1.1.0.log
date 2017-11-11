@@ -1,0 +1,38 @@
+cabal: Entering directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-9441/unbounded-delays-0.1.1.0'
+Configuring unbounded-delays-0.1.1.0...
+Building unbounded-delays-0.1.1.0...
+Preprocessing library unbounded-delays-0.1.1.0...
+[1 of 2] Compiling Control.Concurrent.Thread.Delay ( Control/Concurrent/Thread/Delay.hs, dist/dist-sandbox-1a679f20/build/Control/Concurrent/Thread/Delay.o )
+[2 of 2] Compiling Control.Concurrent.Timeout ( Control/Concurrent/Timeout.hs, dist/dist-sandbox-1a679f20/build/Control/Concurrent/Timeout.o )
+[1 of 2] Compiling Control.Concurrent.Thread.Delay ( Control/Concurrent/Thread/Delay.hs, dist/dist-sandbox-1a679f20/build/Control/Concurrent/Thread/Delay.p_o )
+[2 of 2] Compiling Control.Concurrent.Timeout ( Control/Concurrent/Timeout.hs, dist/dist-sandbox-1a679f20/build/Control/Concurrent/Timeout.p_o )
+Running Haddock for unbounded-delays-0.1.1.0...
+Preprocessing library unbounded-delays-0.1.1.0...
+
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10194_0/ghc_3.hscpp:155:1: warning: [-Wunused-imports]
+    The import of ‘Data.Int’ is redundant
+      except perhaps to import instances from ‘Data.Int’
+    To import instances alone, use: import Data.Int()
+
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10194_0/ghc_3.hscpp:156:1: warning: [-Wunused-imports]
+    The import of ‘System.IO’ is redundant
+      except perhaps to import instances from ‘System.IO’
+    To import instances alone, use: import System.IO()
+
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10194_0/ghc_3.hscpp:157:1: warning: [-Wunused-imports]
+    The qualified import of ‘System.Timeout’ is redundant
+      except perhaps to import instances from ‘System.Timeout’
+    To import instances alone, use: import System.Timeout()
+Haddock coverage:
+ 100% (  2 /  2) in 'Control.Concurrent.Thread.Delay'
+  75% (  3 /  4) in 'Control.Concurrent.Timeout'
+  Missing documentation for:
+    Timeout (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc10194_0/ghc_3.hscpp:175)
+Documentation created:
+dist/dist-sandbox-1a679f20/doc/html/unbounded-delays/index.html
+Creating package registration file:
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/pkgConf-unbounded-delays-0.1.113585809791624379149.0
+Installing library in
+/Users/eph/Documents/GitHub/FizzBuzz/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/unbounded-delays-0.1.1.0-8pvOsE97fmS7WDAN5vUbqX
+Registering unbounded-delays-0.1.1.0...
+cabal: Leaving directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-9441/unbounded-delays-0.1.1.0'
