@@ -1,0 +1,58 @@
+cabal: Entering directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-4697/ansi-wl-pprint-0.6.8.1'
+Configuring ansi-wl-pprint-0.6.8.1...
+Building ansi-wl-pprint-0.6.8.1...
+Preprocessing library ansi-wl-pprint-0.6.8.1...
+[1 of 2] Compiling Text.PrettyPrint.ANSI.Leijen.Internal ( Text/PrettyPrint/ANSI/Leijen/Internal.hs, dist/dist-sandbox-5a099110/build/Text/PrettyPrint/ANSI/Leijen/Internal.o )
+[2 of 2] Compiling Text.PrettyPrint.ANSI.Leijen ( Text/PrettyPrint/ANSI/Leijen.hs, dist/dist-sandbox-5a099110/build/Text/PrettyPrint/ANSI/Leijen.o )
+[1 of 2] Compiling Text.PrettyPrint.ANSI.Leijen.Internal ( Text/PrettyPrint/ANSI/Leijen/Internal.hs, dist/dist-sandbox-5a099110/build/Text/PrettyPrint/ANSI/Leijen/Internal.p_o )
+[2 of 2] Compiling Text.PrettyPrint.ANSI.Leijen ( Text/PrettyPrint/ANSI/Leijen.hs, dist/dist-sandbox-5a099110/build/Text/PrettyPrint/ANSI/Leijen.p_o )
+Running Haddock for ansi-wl-pprint-0.6.8.1...
+Preprocessing library ansi-wl-pprint-0.6.8.1...
+Haddock coverage:
+  79% (117 /148) in 'Text.PrettyPrint.ANSI.Leijen.Internal'
+  Missing documentation for:
+    fold (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:343)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:541)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:544)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:547)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:550)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:553)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:557)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:560)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:563)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:566)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:572)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:575)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:578)
+    width (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:638)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:773)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:778)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:782)
+    beside (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:823)
+    column (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:842)
+    nesting (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:842)
+    columns (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:846)
+    flatten (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:862)
+    colorFunctions (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:929)
+    oncolorFunctions (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:980)
+    Docs (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1064)
+    renderFits (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1113)
+    fits1 (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1181)
+    fitsR (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1200)
+     (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1292)
+    spaces (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1333)
+    indentation (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:1337)
+  97% (137 /141) in 'Text.PrettyPrint.ANSI.Leijen'
+  Missing documentation for:
+    column (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:842)
+    columns (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:846)
+    nesting (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:842)
+    width (/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/ghc6540_0/ghc_3.hscpp:638)
+Documentation created:
+dist/dist-sandbox-5a099110/doc/html/ansi-wl-pprint/index.html
+Creating package registration file:
+/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/pkgConf-ansi-wl-pprint-0.6.816460350011025921153.1
+Installing library in
+/Users/eph/Documents/GitHub/Problemas/Bowling/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/ansi-wl-pprint-0.6.8.1-AloTw2NbGBFHl1luttZjPa
+Registering ansi-wl-pprint-0.6.8.1...
+cabal: Leaving directory '/var/folders/n0/51csjnbx4jlgfg30y54t6ct40000gn/T/cabal-tmp-4697/ansi-wl-pprint-0.6.8.1'

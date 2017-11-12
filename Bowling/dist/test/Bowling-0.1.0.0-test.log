@@ -1,0 +1,13 @@
+Test suite test: RUNNING...
+Bowling tests
+  toFrames
+    zeros are open 0 0: FAIL
+      Exception: src/Bowling.hs:(26,1)-(29,22): Non-exhaustive patterns in function toFrames
+    ones are open 1 1:  FAIL
+      Exception: src/Bowling.hs:(26,1)-(29,22): Non-exhaustive patterns in function toFrames
+    4+5s are open 4 5:  FAIL
+      Exception: src/Bowling.hs:(26,1)-(29,22): Non-exhaustive patterns in function toFrames
+
+3 out of 3 tests failed (0.00s)
+Test suite test: FAIL
+Test suite logged to: dist/test/Bowling-0.1.0.0-test.log
